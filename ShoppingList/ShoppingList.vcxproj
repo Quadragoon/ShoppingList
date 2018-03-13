@@ -147,7 +147,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ShoppingList.cpp" />
+    <ClCompile Include="ListFunctions.c" />
+    <ClCompile Include="MenuOptions.c" />
+    <ClCompile Include="myInputManager.c" />
+    <ClCompile Include="ShoppingList.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ListFunctions.h" />
+    <ClInclude Include="MenuOptions.h" />
+    <ClInclude Include="myInputManager.h" />
+    <ClInclude Include="ShoppingList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
